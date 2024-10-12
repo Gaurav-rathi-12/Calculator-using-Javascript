@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.container{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(164,207,206,1) 93%);
+    display: flex;
+    height: 100vh;
+    justify-content: center ;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
+.body{
+    flex-direction: column;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.body div{
+    padding: 10px 0;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.body div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display{
+    width: 100%;
+    font-size: 32px;
+    padding: 10px;
+    cursor: pointer;
+    outline-width: 0;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+
+.material-icons{
+    height: 50px;
+}
+
+.input{
+    position: relative;
+}
+
+.input span{
+    position: absolute;
+    right: 12px;
+    top: 37px;
+}
+
+.button{
+    width: 100%;
+    height: 55px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+    color: whitesmoke;
+    font-family: cursive;
+    background-color: rgb(149, 56, 149);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #0066ff;
+}
+
+#inputSlider{
+    width: 100%;
+    height: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
